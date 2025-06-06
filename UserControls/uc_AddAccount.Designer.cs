@@ -99,6 +99,7 @@
             btnCreate1.TabIndex = 5;
             btnCreate1.Text = "Create";
             btnCreate1.UseVisualStyleBackColor = false;
+            btnCreate1.Click += btnCreate1_Click;
             // 
             // txtusername1
             // 
@@ -121,6 +122,7 @@
             cmbRole1.Name = "cmbRole1";
             cmbRole1.Size = new Size(151, 28);
             cmbRole1.TabIndex = 8;
+            cmbRole1.SelectedIndexChanged += cmbRole1_SelectedIndexChanged;
             // 
             // cmbStatus1
             // 
@@ -159,6 +161,7 @@
             Controls.Add(Accountreglab);
             Name = "uc_AddAccount";
             Size = new Size(501, 370);
+            Load += uc_AddAccount_Load;
             MouseDown += uc_AddAccount_MouseDown;
             MouseMove += uc_AddAccount_MouseMove;
             MouseUp += uc_AddAccount_MouseUp;

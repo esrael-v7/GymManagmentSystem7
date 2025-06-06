@@ -33,32 +33,35 @@
             Genderlab1 = new Label();
             txtFname = new TextBox();
             txtAge = new TextBox();
-            comboBox1 = new ComboBox();
-            button1 = new Button();
-            button2 = new Button();
+            cmbgend48 = new ComboBox();
             label6 = new Label();
             button3 = new Button();
             LNamelab1 = new Label();
             txtLName = new TextBox();
             Memshiplab1 = new Label();
             Memshipcombo1 = new ComboBox();
-            MIDlab1 = new Label();
-            txtMID1 = new TextBox();
+            btnsave39 = new Button();
+            Btnupdate48 = new Button();
+            usernamelab1 = new Label();
+            passwordlab1 = new Label();
+            txtusername48 = new TextBox();
+            txtpassword48 = new TextBox();
+            dtpage25 = new DateTimePicker();
             SuspendLayout();
             // 
             // Fnamelab1
             // 
             Fnamelab1.AutoSize = true;
-            Fnamelab1.Location = new Point(3, 111);
+            Fnamelab1.Location = new Point(14, 63);
             Fnamelab1.Name = "Fnamelab1";
-            Fnamelab1.Size = new Size(62, 20);
+            Fnamelab1.Size = new Size(76, 20);
             Fnamelab1.TabIndex = 0;
-            Fnamelab1.Text = "F-Name";
+            Fnamelab1.Text = "FirstName";
             // 
             // Agelab1
             // 
             Agelab1.AutoSize = true;
-            Agelab1.Location = new Point(16, 202);
+            Agelab1.Location = new Point(14, 173);
             Agelab1.Name = "Agelab1";
             Agelab1.Size = new Size(36, 20);
             Agelab1.TabIndex = 1;
@@ -67,7 +70,7 @@
             // Genderlab1
             // 
             Genderlab1.AutoSize = true;
-            Genderlab1.Location = new Point(287, 63);
+            Genderlab1.Location = new Point(287, 70);
             Genderlab1.Name = "Genderlab1";
             Genderlab1.Size = new Size(57, 20);
             Genderlab1.TabIndex = 2;
@@ -75,48 +78,26 @@
             // 
             // txtFname
             // 
-            txtFname.Location = new Point(84, 104);
+            txtFname.Location = new Point(96, 63);
             txtFname.Name = "txtFname";
             txtFname.Size = new Size(136, 27);
             txtFname.TabIndex = 5;
+            txtFname.TextChanged += txtFname_TextChanged;
             // 
             // txtAge
             // 
-            txtAge.Location = new Point(84, 195);
+            txtAge.Location = new Point(56, 172);
             txtAge.Name = "txtAge";
-            txtAge.Size = new Size(136, 27);
+            txtAge.Size = new Size(34, 27);
             txtAge.TabIndex = 6;
             // 
-            // comboBox1
+            // cmbgend48
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(380, 55);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 7;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Red;
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(143, 261);
-            button1.Name = "button1";
-            button1.Size = new Size(110, 42);
-            button1.TabIndex = 10;
-            button1.Text = "Save";
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.FromArgb(0, 0, 192);
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(307, 261);
-            button2.Name = "button2";
-            button2.Size = new Size(103, 42);
-            button2.TabIndex = 11;
-            button2.Text = "Cancel";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            cmbgend48.FormattingEnabled = true;
+            cmbgend48.Location = new Point(380, 60);
+            cmbgend48.Name = "cmbgend48";
+            cmbgend48.Size = new Size(151, 28);
+            cmbgend48.TabIndex = 7;
             // 
             // label6
             // 
@@ -143,15 +124,15 @@
             // LNamelab1
             // 
             LNamelab1.AutoSize = true;
-            LNamelab1.Location = new Point(3, 155);
+            LNamelab1.Location = new Point(15, 120);
             LNamelab1.Name = "LNamelab1";
-            LNamelab1.Size = new Size(62, 20);
+            LNamelab1.Size = new Size(75, 20);
             LNamelab1.TabIndex = 14;
-            LNamelab1.Text = "L-Name";
+            LNamelab1.Text = "LastName";
             // 
             // txtLName
             // 
-            txtLName.Location = new Point(84, 152);
+            txtLName.Location = new Point(96, 117);
             txtLName.Name = "txtLName";
             txtLName.Size = new Size(136, 27);
             txtLName.TabIndex = 15;
@@ -159,51 +140,102 @@
             // Memshiplab1
             // 
             Memshiplab1.AutoSize = true;
-            Memshiplab1.Location = new Point(243, 106);
+            Memshiplab1.Location = new Point(238, 117);
             Memshiplab1.Name = "Memshiplab1";
-            Memshiplab1.Size = new Size(131, 20);
+            Memshiplab1.Size = new Size(125, 20);
             Memshiplab1.TabIndex = 16;
-            Memshiplab1.Text = "MemberShip-Type";
+            Memshiplab1.Text = "MemberShipType";
             // 
             // Memshipcombo1
             // 
             Memshipcombo1.FormattingEnabled = true;
-            Memshipcombo1.Location = new Point(380, 103);
+            Memshipcombo1.Location = new Point(380, 112);
             Memshipcombo1.Name = "Memshipcombo1";
             Memshipcombo1.Size = new Size(151, 28);
             Memshipcombo1.TabIndex = 17;
             // 
-            // MIDlab1
+            // btnsave39
             // 
-            MIDlab1.AutoSize = true;
-            MIDlab1.Location = new Point(15, 63);
-            MIDlab1.Name = "MIDlab1";
-            MIDlab1.Size = new Size(43, 20);
-            MIDlab1.TabIndex = 18;
-            MIDlab1.Text = "M-ID";
+            btnsave39.BackColor = Color.Red;
+            btnsave39.ForeColor = Color.White;
+            btnsave39.Location = new Point(122, 261);
+            btnsave39.Name = "btnsave39";
+            btnsave39.Size = new Size(110, 42);
+            btnsave39.TabIndex = 20;
+            btnsave39.Text = "Save";
+            btnsave39.UseVisualStyleBackColor = false;
+            btnsave39.Click += btnsave39_Click;
             // 
-            // txtMID1
+            // Btnupdate48
             // 
-            txtMID1.Location = new Point(84, 60);
-            txtMID1.Name = "txtMID1";
-            txtMID1.Size = new Size(136, 27);
-            txtMID1.TabIndex = 19;
+            Btnupdate48.BackColor = Color.FromArgb(64, 64, 0);
+            Btnupdate48.ForeColor = Color.White;
+            Btnupdate48.Location = new Point(319, 261);
+            Btnupdate48.Name = "Btnupdate48";
+            Btnupdate48.Size = new Size(110, 42);
+            Btnupdate48.TabIndex = 25;
+            Btnupdate48.Text = "Update";
+            Btnupdate48.UseVisualStyleBackColor = false;
+            Btnupdate48.Click += Btnupdate48_Click;
+            // 
+            // usernamelab1
+            // 
+            usernamelab1.AutoSize = true;
+            usernamelab1.Location = new Point(292, 160);
+            usernamelab1.Name = "usernamelab1";
+            usernamelab1.Size = new Size(75, 20);
+            usernamelab1.TabIndex = 26;
+            usernamelab1.Text = "Username";
+            // 
+            // passwordlab1
+            // 
+            passwordlab1.AutoSize = true;
+            passwordlab1.Location = new Point(292, 198);
+            passwordlab1.Name = "passwordlab1";
+            passwordlab1.Size = new Size(70, 20);
+            passwordlab1.TabIndex = 27;
+            passwordlab1.Text = "Password";
+            // 
+            // txtusername48
+            // 
+            txtusername48.Location = new Point(380, 153);
+            txtusername48.Name = "txtusername48";
+            txtusername48.Size = new Size(151, 27);
+            txtusername48.TabIndex = 28;
+            // 
+            // txtpassword48
+            // 
+            txtpassword48.Location = new Point(380, 191);
+            txtpassword48.Name = "txtpassword48";
+            txtpassword48.Size = new Size(151, 27);
+            txtpassword48.TabIndex = 29;
+            // 
+            // dtpage25
+            // 
+            dtpage25.Location = new Point(98, 170);
+            dtpage25.Name = "dtpage25";
+            dtpage25.Size = new Size(165, 27);
+            dtpage25.TabIndex = 30;
+            dtpage25.ValueChanged += dtpage25_ValueChanged;
             // 
             // uc_AddMember
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(txtMID1);
-            Controls.Add(MIDlab1);
+            Controls.Add(dtpage25);
+            Controls.Add(txtpassword48);
+            Controls.Add(txtusername48);
+            Controls.Add(passwordlab1);
+            Controls.Add(usernamelab1);
+            Controls.Add(Btnupdate48);
+            Controls.Add(btnsave39);
             Controls.Add(Memshipcombo1);
             Controls.Add(Memshiplab1);
             Controls.Add(txtLName);
             Controls.Add(LNamelab1);
             Controls.Add(button3);
             Controls.Add(label6);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(comboBox1);
+            Controls.Add(cmbgend48);
             Controls.Add(txtAge);
             Controls.Add(txtFname);
             Controls.Add(Genderlab1);
@@ -226,16 +258,19 @@
         private Label Genderlab1;
         private TextBox txtFname;
         private TextBox txtAge;
-        private ComboBox comboBox1;
-        private Button button1;
-        private Button button2;
+        private ComboBox cmbgend48;
         private Label label6;
         private Button button3;
         private Label LNamelab1;
         private TextBox txtLName;
         private Label Memshiplab1;
         private ComboBox Memshipcombo1;
-        private Label MIDlab1;
-        private TextBox txtMID1;
+        private Button btnsave39;
+        private Button Btnupdate48;
+        private Label usernamelab1;
+        private Label passwordlab1;
+        private TextBox txtusername48;
+        private TextBox txtpassword48;
+        private DateTimePicker dtpage25;
     }
 }

@@ -24,7 +24,7 @@ namespace GymManagmentSystem7.Data
                         int count = (int)checkCmd.ExecuteScalar();
 
                         if (count > 0)
-                            return; // Already seeded
+                            return; 
                     }
 
                     // Insert Super Admin
@@ -35,10 +35,9 @@ namespace GymManagmentSystem7.Data
                     {
                         cmd.Parameters.AddWithValue("@Guid", SuperAdminGuid);
                         cmd.Parameters.AddWithValue("@Username", "superadmin");
-                        cmd.Parameters.AddWithValue("@Password", "admin123"); // Consider hashing later
+                        cmd.Parameters.AddWithValue("@Password", "admin123"); 
                         cmd.Parameters.AddWithValue("@Role", AccountRole.Admin.ToString());
-                        cmd.Parameters.AddWithValue("@Status", "A"); // Active status
-
+                        cmd.Parameters.AddWithValue("@Status", "A"); 
                         cmd.ExecuteNonQuery();
                     }
                 }

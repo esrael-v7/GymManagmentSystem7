@@ -8,11 +8,9 @@ namespace GymManagmentSystem7.Controller
 {
     public class AccountController
     {
-        public AccountController()
-        {
-        }
+        public AccountController() { }
 
-
+        // ✅ 1. LOGIN
         public (Account, string) Login(string username, string password)
         {
             try
@@ -20,8 +18,8 @@ namespace GymManagmentSystem7.Controller
                 using (SqlConnection conn = new DBConnection()._Connect)
                 {
                     string query = @"SELECT AccountId, AccountGuid, Username, Password, Role, Status 
-                             FROM Account 
-                             WHERE Username = @Username";
+                                     FROM Account 
+                                     WHERE Username = @Username";
 
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
@@ -67,5 +65,27 @@ namespace GymManagmentSystem7.Controller
             }
         }
 
+        // ✅ 2. TOGGLE ACCOUNT STATUS (ACTIVE ↔ DEACTIVATED)
+        public bool ToggleAccountStatus(int accountId)
+        {
+            using (var conn = new DBConnection()._Connect)
+            {
+                string checkSql = "SELECT Status FROM Account WHERE AccountId = @id";
+                using (SqlCommand cmd = new SqlCommand(checkSql, conn))
+                {
+                    cmd.Parameters.AddWithValue("@id", accountId);
+                    char currentStatus = Convert.ToChar(cmd.ExecuteScalar());
+
+                    char newStatus = (currentStatus == 'A') ? 'D' : 'A';
+
+                    string updateSql = "UPDATE Account SET Status = @status WHERE AccountId = @id";
+                    SqlCommand updateCmd = new SqlCommand(updateSql, conn);
+                    updateCmd.Parameters.AddWithValue("@status", newStatus);
+                    updateCmd.Parameters.AddWithValue("@id", accountId);
+
+                    return updateCmd.ExecuteNonQuery() > 0;
+                }
+            }
+        }
     }
 }

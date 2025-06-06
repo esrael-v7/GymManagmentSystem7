@@ -43,119 +43,129 @@ namespace GymManagmentSystem7
             pictureBox2 = new PictureBox();
             tabcontrolMain = new TabControl();
             Registrationtab = new TabPage();
+            btnRefreshMembers = new Button();
+            Btndelete48 = new Button();
             btnAddAccount = new Button();
             btnTestConnection = new Button();
-            dataGridView2 = new DataGridView();
+            dgvMembers = new DataGridView();
             MemberID = new DataGridViewTextBoxColumn();
-            FNameColumn = new DataGridViewTextBoxColumn();
-            Lname1 = new DataGridViewTextBoxColumn();
+            Accountdi = new DataGridViewTextBoxColumn();
+            FirstName = new DataGridViewTextBoxColumn();
+            LastName = new DataGridViewTextBoxColumn();
             Age = new DataGridViewTextBoxColumn();
             Gender = new DataGridViewTextBoxColumn();
-            MemberShipType1 = new DataGridViewTextBoxColumn();
+            MemberShipType = new DataGridViewTextBoxColumn();
+            Edit = new DataGridViewButtonColumn();
+            Delete = new DataGridViewCheckBoxColumn();
+            Status = new DataGridViewTextBoxColumn();
+            Mode = new DataGridViewButtonColumn();
             btnAddMember = new Button();
             label6 = new Label();
+            pictureBox5 = new PictureBox();
             Trainertab = new TabPage();
-            dataGridView3 = new DataGridView();
-            Tname = new DataGridViewTextBoxColumn();
-            txtspecality = new DataGridViewTextBoxColumn();
-            txtPhoneTrainer = new DataGridViewTextBoxColumn();
-            dtpHireDate = new DataGridViewTextBoxColumn();
+            refreshtrain2433 = new Button();
+            deletetrainbtn23 = new Button();
+            dgvTrainers = new DataGridView();
+            TrainerID = new DataGridViewTextBoxColumn();
+            Accountme = new DataGridViewTextBoxColumn();
+            Tfirstname = new DataGridViewTextBoxColumn();
+            Tlastname = new DataGridViewTextBoxColumn();
+            Tspecialization = new DataGridViewTextBoxColumn();
+            Edittrainer = new DataGridViewButtonColumn();
+            DeleteTrainer = new DataGridViewCheckBoxColumn();
+            StatusTrainer = new DataGridViewTextBoxColumn();
+            ModeTrainer = new DataGridViewButtonColumn();
             btnAddTrainer = new Button();
             label7 = new Label();
+            pictureBox4 = new PictureBox();
             Paymenttab = new TabPage();
-            button1 = new Button();
-            dataGridView1 = new DataGridView();
-            Pmember = new DataGridViewTextBoxColumn();
-            PDate = new DataGridViewTextBoxColumn();
-            PAmount = new DataGridViewTextBoxColumn();
-            PFor = new DataGridViewTextBoxColumn();
+            btnRefreshPayments = new Button();
+            deletepaybtn21 = new Button();
+            dgvPayments = new DataGridView();
             button3 = new Button();
             label5 = new Label();
+            pictureBox6 = new PictureBox();
             MyPlantab = new TabPage();
             btnrefreshMplan = new Button();
-            dataGridView4 = new DataGridView();
-            PlanName1 = new DataGridViewTextBoxColumn();
+            dgvMPlan = new DataGridView();
+            Planid1 = new DataGridViewTextBoxColumn();
             Duration1 = new DataGridViewTextBoxColumn();
             Trainer = new DataGridViewTextBoxColumn();
-            Date1 = new DataGridViewTextBoxColumn();
             Assigned1 = new DataGridViewTextBoxColumn();
             label1 = new Label();
+            pictureBox7 = new PictureBox();
             Mypaymenttab = new TabPage();
             btnrefreshMyPay = new Button();
-            dataGridView5 = new DataGridView();
-            Date2 = new DataGridViewTextBoxColumn();
+            dgvMyPayment = new DataGridView();
+            payDate = new DataGridViewTextBoxColumn();
             Amount2 = new DataGridViewTextBoxColumn();
             Description2 = new DataGridViewTextBoxColumn();
             MYPaymentlab = new Label();
-            MyProgresstab = new TabPage();
-            btnrefreshmypro = new Button();
-            dataGridView6 = new DataGridView();
-            Date3 = new DataGridViewTextBoxColumn();
-            Weight3 = new DataGridViewTextBoxColumn();
-            BodyFat1 = new DataGridViewTextBoxColumn();
-            Notes1 = new DataGridViewTextBoxColumn();
-            MyprogressLab = new Label();
+            pictureBox8 = new PictureBox();
             Msplantab = new TabPage();
-            Msplanduratilab = new Label();
-            btnMsView1 = new Button();
-            btnMsDelete1 = new Button();
-            btnMsUpdate1 = new Button();
+            Mplaninnglab1 = new Label();
+            btnRefreshPlans = new Button();
+            dgvPlans = new DataGridView();
+            Planid = new DataGridViewTextBoxColumn();
+            Memberdi = new DataGridViewTextBoxColumn();
+            Membersgrid1 = new DataGridViewTextBoxColumn();
+            Durationgrid1 = new DataGridViewTextBoxColumn();
+            Assignedgrid1 = new DataGridViewTextBoxColumn();
+            Editplan = new DataGridViewButtonColumn();
+            Deleteplan = new DataGridViewCheckBoxColumn();
+            Statusmembers = new DataGridViewTextBoxColumn();
+            btnDeletePlan = new Button();
             btnMsAdd1 = new Button();
-            textBox5 = new TextBox();
-            dateTimePicker2 = new DateTimePicker();
-            numericUpDown1 = new NumericUpDown();
-            comboBox2 = new ComboBox();
-            textBox4 = new TextBox();
-            MsAssignlab = new Label();
-            MsDate1lab = new Label();
-            MsMemelab = new Label();
-            Msplanlab = new Label();
-            MsProgresstab = new TabPage();
-            btnMsView = new Button();
-            btnMsDelete = new Button();
-            btnMsUpdate = new Button();
-            btnMsAdd = new Button();
-            textBox3 = new TextBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
-            comboBox1 = new ComboBox();
-            Msnotelab = new Label();
-            Msweightlab = new Label();
-            Msbodylab = new Label();
-            Msdatelab = new Label();
-            Msnamelab = new Label();
+            pictureBox10 = new PictureBox();
             MsAttendancetab = new TabPage();
-            btnMSUpdateAttend = new Button();
+            btnDeleteAttendance = new Button();
+            btnRefreshAttendance = new Button();
             btnMsAddAttend = new Button();
             MsAttendlab1 = new Label();
-            dataGridView7 = new DataGridView();
+            dgvAttendance = new DataGridView();
+            Attendanceid = new DataGridViewTextBoxColumn();
+            MsMemberId = new DataGridViewTextBoxColumn();
             MsName13 = new DataGridViewTextBoxColumn();
             Date13 = new DataGridViewTextBoxColumn();
             Status13 = new DataGridViewTextBoxColumn();
+            Editattend = new DataGridViewButtonColumn();
+            Deleteattend = new DataGridViewCheckBoxColumn();
+            pictureBox12 = new PictureBox();
             Logoutbtn = new Button();
+            Paymentid = new DataGridViewTextBoxColumn();
+            Memberdd = new DataGridViewTextBoxColumn();
+            Pmember = new DataGridViewTextBoxColumn();
+            PaymentDate = new DataGridViewTextBoxColumn();
+            Amount = new DataGridViewTextBoxColumn();
+            Editpayment = new DataGridViewButtonColumn();
+            Deletepayment = new DataGridViewCheckBoxColumn();
+            Statusmemb = new DataGridViewTextBoxColumn();
             Loginpanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             tabcontrolMain.SuspendLayout();
             Registrationtab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvMembers).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             Trainertab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTrainers).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             Paymenttab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvPayments).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             MyPlantab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvMPlan).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             Mypaymenttab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView5).BeginInit();
-            MyProgresstab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvMyPayment).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             Msplantab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
-            MsProgresstab.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvPlans).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             MsAttendancetab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvAttendance).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             SuspendLayout();
             // 
             // Loginpanel
@@ -172,25 +182,26 @@ namespace GymManagmentSystem7
             Loginpanel.Dock = DockStyle.Fill;
             Loginpanel.Location = new Point(0, 0);
             Loginpanel.Name = "Loginpanel";
-            Loginpanel.Size = new Size(933, 476);
+            Loginpanel.Size = new Size(1253, 544);
             Loginpanel.TabIndex = 0;
             // 
             // pictureBox3
             // 
             pictureBox3.BackColor = Color.White;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(638, 242);
+            pictureBox3.Location = new Point(820, 236);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(33, 38);
+            pictureBox3.Size = new Size(33, 32);
             pictureBox3.TabIndex = 9;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // Title
             // 
             Title.AutoSize = true;
             Title.Font = new Font("Century Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Title.ForeColor = Color.Crimson;
-            Title.Location = new Point(346, 42);
+            Title.Location = new Point(512, 32);
             Title.Name = "Title";
             Title.Size = new Size(238, 37);
             Title.TabIndex = 7;
@@ -199,17 +210,16 @@ namespace GymManagmentSystem7
             // txtboxUsername
             // 
             txtboxUsername.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtboxUsername.Location = new Point(446, 155);
+            txtboxUsername.Location = new Point(628, 128);
             txtboxUsername.Name = "txtboxUsername";
             txtboxUsername.Size = new Size(225, 38);
             txtboxUsername.TabIndex = 6;
-            txtboxUsername.UseSystemPasswordChar = true;
             txtboxUsername.KeyPress += txtboxUsername_KeyPress;
             // 
             // txtboxPassword
             // 
             txtboxPassword.Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtboxPassword.Location = new Point(446, 242);
+            txtboxPassword.Location = new Point(628, 236);
             txtboxPassword.Name = "txtboxPassword";
             txtboxPassword.Size = new Size(225, 38);
             txtboxPassword.TabIndex = 4;
@@ -222,7 +232,7 @@ namespace GymManagmentSystem7
             buttonLogin.BackColor = Color.Crimson;
             buttonLogin.Font = new Font("Century Gothic", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
             buttonLogin.ForeColor = Color.White;
-            buttonLogin.Location = new Point(376, 333);
+            buttonLogin.Location = new Point(568, 345);
             buttonLogin.Name = "buttonLogin";
             buttonLogin.Size = new Size(135, 59);
             buttonLogin.TabIndex = 2;
@@ -235,7 +245,7 @@ namespace GymManagmentSystem7
             Passwordlabel.AutoSize = true;
             Passwordlabel.Font = new Font("Century Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Passwordlabel.ForeColor = Color.FromArgb(0, 0, 192);
-            Passwordlabel.Location = new Point(285, 247);
+            Passwordlabel.Location = new Point(472, 236);
             Passwordlabel.Name = "Passwordlabel";
             Passwordlabel.Size = new Size(130, 27);
             Passwordlabel.TabIndex = 1;
@@ -246,7 +256,7 @@ namespace GymManagmentSystem7
             Usernamelabel.AutoSize = true;
             Usernamelabel.Font = new Font("Century Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Usernamelabel.ForeColor = Color.FromArgb(0, 0, 192);
-            Usernamelabel.Location = new Point(285, 166);
+            Usernamelabel.Location = new Point(464, 139);
             Usernamelabel.Name = "Usernamelabel";
             Usernamelabel.Size = new Size(138, 27);
             Usernamelabel.TabIndex = 0;
@@ -258,7 +268,7 @@ namespace GymManagmentSystem7
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(933, 476);
+            pictureBox1.Size = new Size(1253, 544);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
@@ -278,50 +288,75 @@ namespace GymManagmentSystem7
             tabcontrolMain.Controls.Add(Paymenttab);
             tabcontrolMain.Controls.Add(MyPlantab);
             tabcontrolMain.Controls.Add(Mypaymenttab);
-            tabcontrolMain.Controls.Add(MyProgresstab);
             tabcontrolMain.Controls.Add(Msplantab);
-            tabcontrolMain.Controls.Add(MsProgresstab);
             tabcontrolMain.Controls.Add(MsAttendancetab);
             tabcontrolMain.Dock = DockStyle.Fill;
             tabcontrolMain.Location = new Point(0, 0);
             tabcontrolMain.Name = "tabcontrolMain";
             tabcontrolMain.SelectedIndex = 0;
-            tabcontrolMain.Size = new Size(933, 476);
+            tabcontrolMain.Size = new Size(1253, 544);
             tabcontrolMain.TabIndex = 6;
             // 
             // Registrationtab
             // 
+            Registrationtab.Controls.Add(btnRefreshMembers);
+            Registrationtab.Controls.Add(Btndelete48);
             Registrationtab.Controls.Add(btnAddAccount);
             Registrationtab.Controls.Add(btnTestConnection);
-            Registrationtab.Controls.Add(dataGridView2);
+            Registrationtab.Controls.Add(dgvMembers);
             Registrationtab.Controls.Add(btnAddMember);
             Registrationtab.Controls.Add(label6);
+            Registrationtab.Controls.Add(pictureBox5);
             Registrationtab.Location = new Point(4, 29);
             Registrationtab.Name = "Registrationtab";
             Registrationtab.Padding = new Padding(3);
-            Registrationtab.Size = new Size(925, 443);
+            Registrationtab.Size = new Size(1245, 511);
             Registrationtab.TabIndex = 0;
-            Registrationtab.Text = "MemRegistration";
+            Registrationtab.Text = "Registration";
             Registrationtab.UseVisualStyleBackColor = true;
             Registrationtab.Click += Registrationtab_Click;
             // 
+            // btnRefreshMembers
+            // 
+            btnRefreshMembers.BackColor = Color.Maroon;
+            btnRefreshMembers.ForeColor = Color.White;
+            btnRefreshMembers.Location = new Point(948, 98);
+            btnRefreshMembers.Name = "btnRefreshMembers";
+            btnRefreshMembers.Size = new Size(126, 47);
+            btnRefreshMembers.TabIndex = 6;
+            btnRefreshMembers.Text = "REFRESH";
+            btnRefreshMembers.UseVisualStyleBackColor = false;
+            btnRefreshMembers.Click += btnRefreshMembers_Click;
+            // 
+            // Btndelete48
+            // 
+            Btndelete48.BackColor = Color.Maroon;
+            Btndelete48.ForeColor = Color.White;
+            Btndelete48.Location = new Point(751, 98);
+            Btndelete48.Name = "Btndelete48";
+            Btndelete48.Size = new Size(117, 47);
+            Btndelete48.TabIndex = 5;
+            Btndelete48.Text = "Delete";
+            Btndelete48.UseVisualStyleBackColor = false;
+            Btndelete48.Click += Btndelete48_Click;
+            // 
             // btnAddAccount
             // 
-            btnAddAccount.BackColor = Color.FromArgb(0, 192, 0);
+            btnAddAccount.BackColor = Color.Maroon;
             btnAddAccount.ForeColor = Color.White;
-            btnAddAccount.Location = new Point(581, 98);
+            btnAddAccount.Location = new Point(534, 99);
             btnAddAccount.Name = "btnAddAccount";
             btnAddAccount.Size = new Size(126, 47);
             btnAddAccount.TabIndex = 4;
-            btnAddAccount.Text = "AddAccount";
+            btnAddAccount.Text = "AddStaff";
             btnAddAccount.UseVisualStyleBackColor = false;
             btnAddAccount.Click += btnAddAccount_Click;
             // 
             // btnTestConnection
             // 
-            btnTestConnection.BackColor = Color.FromArgb(0, 0, 192);
+            btnTestConnection.BackColor = Color.Maroon;
             btnTestConnection.ForeColor = Color.White;
-            btnTestConnection.Location = new Point(360, 98);
+            btnTestConnection.Location = new Point(83, 99);
             btnTestConnection.Name = "btnTestConnection";
             btnTestConnection.Size = new Size(147, 47);
             btnTestConnection.TabIndex = 3;
@@ -329,64 +364,122 @@ namespace GymManagmentSystem7
             btnTestConnection.UseVisualStyleBackColor = false;
             btnTestConnection.Click += btnTestConnection_Click;
             // 
-            // dataGridView2
+            // dgvMembers
             // 
-            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Columns.AddRange(new DataGridViewColumn[] { MemberID, FNameColumn, Lname1, Age, Gender, MemberShipType1 });
-            dataGridView2.Location = new Point(1, 167);
-            dataGridView2.Name = "dataGridView2";
-            dataGridView2.RowHeadersWidth = 51;
-            dataGridView2.Size = new Size(926, 271);
-            dataGridView2.TabIndex = 2;
-            dataGridView2.CellContentClick += dataGridView2_CellContentClick;
+            dgvMembers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvMembers.Columns.AddRange(new DataGridViewColumn[] { MemberID, Accountdi, FirstName, LastName, Age, Gender, MemberShipType, Edit, Delete, Status, Mode });
+            dgvMembers.Location = new Point(1, 167);
+            dgvMembers.Name = "dgvMembers";
+            dgvMembers.RowHeadersWidth = 51;
+            dgvMembers.Size = new Size(1240, 341);
+            dgvMembers.TabIndex = 2;
+            dgvMembers.CellContentClick += dataGridView2_CellContentClick;
             // 
             // MemberID
             // 
-            MemberID.HeaderText = "M-ID";
+            MemberID.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            MemberID.DataPropertyName = "MemberId";
+            MemberID.HeaderText = "MemberId";
             MemberID.MinimumWidth = 6;
             MemberID.Name = "MemberID";
-            MemberID.Width = 125;
+            MemberID.Width = 110;
             // 
-            // FNameColumn
+            // Accountdi
             // 
-            FNameColumn.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            FNameColumn.HeaderText = "F-Name";
-            FNameColumn.MinimumWidth = 6;
-            FNameColumn.Name = "FNameColumn";
+            Accountdi.DataPropertyName = "AccountId";
+            Accountdi.HeaderText = "AccountId";
+            Accountdi.MinimumWidth = 6;
+            Accountdi.Name = "Accountdi";
+            Accountdi.Visible = false;
+            Accountdi.Width = 125;
             // 
-            // Lname1
+            // FirstName
             // 
-            Lname1.HeaderText = "L-Name";
-            Lname1.MinimumWidth = 6;
-            Lname1.Name = "Lname1";
-            Lname1.Width = 125;
+            FirstName.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            FirstName.DataPropertyName = "FirstName";
+            FirstName.HeaderText = "FirstName";
+            FirstName.MinimumWidth = 6;
+            FirstName.Name = "FirstName";
+            FirstName.Width = 110;
+            // 
+            // LastName
+            // 
+            LastName.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            LastName.DataPropertyName = "LastName";
+            LastName.HeaderText = "LastName";
+            LastName.MinimumWidth = 6;
+            LastName.Name = "LastName";
+            LastName.Width = 125;
             // 
             // Age
             // 
+            Age.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            Age.DataPropertyName = "Age";
             Age.HeaderText = "Age";
             Age.MinimumWidth = 6;
             Age.Name = "Age";
-            Age.Width = 125;
+            Age.Width = 109;
             // 
             // Gender
             // 
+            Gender.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            Gender.DataPropertyName = "Gender";
             Gender.HeaderText = "Gender";
             Gender.MinimumWidth = 6;
             Gender.Name = "Gender";
-            Gender.Width = 125;
+            Gender.Width = 109;
             // 
-            // MemberShipType1
+            // MemberShipType
             // 
-            MemberShipType1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            MemberShipType1.HeaderText = "MemberShip-Type";
-            MemberShipType1.MinimumWidth = 6;
-            MemberShipType1.Name = "MemberShipType1";
+            MemberShipType.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            MemberShipType.DataPropertyName = "MemberShipType";
+            MemberShipType.HeaderText = "MemberShipType";
+            MemberShipType.MinimumWidth = 6;
+            MemberShipType.Name = "MemberShipType";
+            MemberShipType.Width = 125;
+            // 
+            // Edit
+            // 
+            Edit.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            Edit.DataPropertyName = "Edit";
+            Edit.HeaderText = "Edit";
+            Edit.MinimumWidth = 6;
+            Edit.Name = "Edit";
+            Edit.Width = 125;
+            // 
+            // Delete
+            // 
+            Delete.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            Delete.DataPropertyName = "Delete";
+            Delete.HeaderText = "Delete";
+            Delete.MinimumWidth = 6;
+            Delete.Name = "Delete";
+            Delete.Width = 125;
+            // 
+            // Status
+            // 
+            Status.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            Status.DataPropertyName = "Status";
+            Status.HeaderText = "Status";
+            Status.MinimumWidth = 6;
+            Status.Name = "Status";
+            Status.ReadOnly = true;
+            Status.Width = 125;
+            // 
+            // Mode
+            // 
+            Mode.AutoSizeMode = DataGridViewAutoSizeColumnMode.None;
+            Mode.DataPropertyName = "Mode";
+            Mode.HeaderText = "Mode";
+            Mode.MinimumWidth = 6;
+            Mode.Name = "Mode";
+            Mode.Width = 125;
             // 
             // btnAddMember
             // 
-            btnAddMember.BackColor = Color.FromArgb(0, 192, 0);
+            btnAddMember.BackColor = Color.Maroon;
             btnAddMember.ForeColor = Color.White;
-            btnAddMember.Location = new Point(164, 98);
+            btnAddMember.Location = new Point(315, 99);
             btnAddMember.Name = "btnAddMember";
             btnAddMember.Size = new Size(122, 47);
             btnAddMember.TabIndex = 1;
@@ -400,7 +493,7 @@ namespace GymManagmentSystem7
             label6.BackColor = Color.Red;
             label6.Font = new Font("Century Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.White;
-            label6.Location = new Point(253, 13);
+            label6.Location = new Point(446, 20);
             label6.Name = "label6";
             label6.Size = new Size(327, 37);
             label6.TabIndex = 0;
@@ -408,62 +501,142 @@ namespace GymManagmentSystem7
             label6.TextAlign = ContentAlignment.MiddleCenter;
             label6.Click += label6_Click;
             // 
+            // pictureBox5
+            // 
+            pictureBox5.Dock = DockStyle.Fill;
+            pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
+            pictureBox5.Location = new Point(3, 3);
+            pictureBox5.Name = "pictureBox5";
+            pictureBox5.Size = new Size(1239, 505);
+            pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox5.TabIndex = 7;
+            pictureBox5.TabStop = false;
+            // 
             // Trainertab
             // 
-            Trainertab.Controls.Add(dataGridView3);
+            Trainertab.Controls.Add(refreshtrain2433);
+            Trainertab.Controls.Add(deletetrainbtn23);
+            Trainertab.Controls.Add(dgvTrainers);
             Trainertab.Controls.Add(btnAddTrainer);
             Trainertab.Controls.Add(label7);
+            Trainertab.Controls.Add(pictureBox4);
             Trainertab.Location = new Point(4, 29);
             Trainertab.Name = "Trainertab";
             Trainertab.Padding = new Padding(3);
-            Trainertab.Size = new Size(925, 443);
+            Trainertab.Size = new Size(1245, 511);
             Trainertab.TabIndex = 1;
             Trainertab.Text = "TrainerManagement";
             Trainertab.UseVisualStyleBackColor = true;
             // 
-            // dataGridView3
+            // refreshtrain2433
             // 
-            dataGridView3.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView3.Columns.AddRange(new DataGridViewColumn[] { Tname, txtspecality, txtPhoneTrainer, dtpHireDate });
-            dataGridView3.Location = new Point(8, 170);
-            dataGridView3.Name = "dataGridView3";
-            dataGridView3.RowHeadersWidth = 51;
-            dataGridView3.Size = new Size(914, 303);
-            dataGridView3.TabIndex = 2;
+            refreshtrain2433.BackColor = Color.Maroon;
+            refreshtrain2433.ForeColor = Color.White;
+            refreshtrain2433.Location = new Point(816, 93);
+            refreshtrain2433.Name = "refreshtrain2433";
+            refreshtrain2433.Size = new Size(116, 41);
+            refreshtrain2433.TabIndex = 5;
+            refreshtrain2433.Text = "Refresh";
+            refreshtrain2433.UseVisualStyleBackColor = false;
+            refreshtrain2433.Click += refreshtrain2433_Click;
             // 
-            // Tname
+            // deletetrainbtn23
             // 
-            Tname.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Tname.HeaderText = "Trainer-Name";
-            Tname.MinimumWidth = 6;
-            Tname.Name = "Tname";
+            deletetrainbtn23.BackColor = Color.Maroon;
+            deletetrainbtn23.ForeColor = Color.White;
+            deletetrainbtn23.Location = new Point(553, 93);
+            deletetrainbtn23.Name = "deletetrainbtn23";
+            deletetrainbtn23.Size = new Size(116, 41);
+            deletetrainbtn23.TabIndex = 4;
+            deletetrainbtn23.Text = "Delete";
+            deletetrainbtn23.UseVisualStyleBackColor = false;
+            deletetrainbtn23.Click += deletetrainbtn23_Click;
             // 
-            // txtspecality
+            // dgvTrainers
             // 
-            txtspecality.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            txtspecality.HeaderText = "Speciality";
-            txtspecality.MinimumWidth = 6;
-            txtspecality.Name = "txtspecality";
+            dgvTrainers.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvTrainers.Columns.AddRange(new DataGridViewColumn[] { TrainerID, Accountme, Tfirstname, Tlastname, Tspecialization, Edittrainer, DeleteTrainer, StatusTrainer, ModeTrainer });
+            dgvTrainers.Location = new Point(3, 140);
+            dgvTrainers.Name = "dgvTrainers";
+            dgvTrainers.RowHeadersWidth = 51;
+            dgvTrainers.Size = new Size(1239, 363);
+            dgvTrainers.TabIndex = 2;
             // 
-            // txtPhoneTrainer
+            // TrainerID
             // 
-            txtPhoneTrainer.HeaderText = "T-Phone";
-            txtPhoneTrainer.MinimumWidth = 6;
-            txtPhoneTrainer.Name = "txtPhoneTrainer";
-            txtPhoneTrainer.Width = 125;
+            TrainerID.DataPropertyName = "Trainerid";
+            TrainerID.HeaderText = "Trainerid";
+            TrainerID.MinimumWidth = 6;
+            TrainerID.Name = "TrainerID";
+            TrainerID.Width = 125;
             // 
-            // dtpHireDate
+            // Accountme
             // 
-            dtpHireDate.HeaderText = "Hire-Date";
-            dtpHireDate.MinimumWidth = 6;
-            dtpHireDate.Name = "dtpHireDate";
-            dtpHireDate.Width = 125;
+            Accountme.DataPropertyName = "AccountId";
+            Accountme.HeaderText = "AccountId";
+            Accountme.MinimumWidth = 6;
+            Accountme.Name = "Accountme";
+            Accountme.Visible = false;
+            Accountme.Width = 125;
+            // 
+            // Tfirstname
+            // 
+            Tfirstname.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Tfirstname.DataPropertyName = "FirstName";
+            Tfirstname.HeaderText = "FirstName";
+            Tfirstname.MinimumWidth = 6;
+            Tfirstname.Name = "Tfirstname";
+            // 
+            // Tlastname
+            // 
+            Tlastname.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Tlastname.DataPropertyName = "LastName";
+            Tlastname.HeaderText = "LastName";
+            Tlastname.MinimumWidth = 6;
+            Tlastname.Name = "Tlastname";
+            // 
+            // Tspecialization
+            // 
+            Tspecialization.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Tspecialization.DataPropertyName = "Specialization";
+            Tspecialization.HeaderText = "Specialization";
+            Tspecialization.MinimumWidth = 6;
+            Tspecialization.Name = "Tspecialization";
+            // 
+            // Edittrainer
+            // 
+            Edittrainer.HeaderText = "Edit";
+            Edittrainer.MinimumWidth = 6;
+            Edittrainer.Name = "Edittrainer";
+            Edittrainer.Width = 125;
+            // 
+            // DeleteTrainer
+            // 
+            DeleteTrainer.HeaderText = "Delete";
+            DeleteTrainer.MinimumWidth = 6;
+            DeleteTrainer.Name = "DeleteTrainer";
+            DeleteTrainer.Width = 125;
+            // 
+            // StatusTrainer
+            // 
+            StatusTrainer.DataPropertyName = "Status";
+            StatusTrainer.HeaderText = "Status";
+            StatusTrainer.MinimumWidth = 6;
+            StatusTrainer.Name = "StatusTrainer";
+            StatusTrainer.Width = 125;
+            // 
+            // ModeTrainer
+            // 
+            ModeTrainer.HeaderText = "Mode";
+            ModeTrainer.MinimumWidth = 6;
+            ModeTrainer.Name = "ModeTrainer";
+            ModeTrainer.Width = 125;
             // 
             // btnAddTrainer
             // 
-            btnAddTrainer.BackColor = Color.Blue;
+            btnAddTrainer.BackColor = Color.Maroon;
             btnAddTrainer.ForeColor = Color.White;
-            btnAddTrainer.Location = new Point(372, 93);
+            btnAddTrainer.Location = new Point(293, 93);
             btnAddTrainer.Name = "btnAddTrainer";
             btnAddTrainer.Size = new Size(116, 41);
             btnAddTrainer.TabIndex = 1;
@@ -477,80 +650,78 @@ namespace GymManagmentSystem7
             label7.BackColor = Color.Green;
             label7.Font = new Font("Century Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label7.ForeColor = Color.White;
-            label7.Location = new Point(257, 23);
+            label7.Location = new Point(438, 14);
             label7.Name = "label7";
             label7.Size = new Size(323, 37);
             label7.TabIndex = 0;
             label7.Text = "Trainer-Management";
             // 
+            // pictureBox4
+            // 
+            pictureBox4.Dock = DockStyle.Fill;
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(3, 3);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(1239, 505);
+            pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox4.TabIndex = 3;
+            pictureBox4.TabStop = false;
+            // 
             // Paymenttab
             // 
-            Paymenttab.Controls.Add(button1);
-            Paymenttab.Controls.Add(dataGridView1);
+            Paymenttab.Controls.Add(btnRefreshPayments);
+            Paymenttab.Controls.Add(deletepaybtn21);
+            Paymenttab.Controls.Add(dgvPayments);
             Paymenttab.Controls.Add(button3);
             Paymenttab.Controls.Add(label5);
+            Paymenttab.Controls.Add(pictureBox6);
             Paymenttab.Location = new Point(4, 29);
             Paymenttab.Name = "Paymenttab";
             Paymenttab.Padding = new Padding(3);
-            Paymenttab.Size = new Size(925, 443);
+            Paymenttab.Size = new Size(1245, 511);
             Paymenttab.TabIndex = 2;
             Paymenttab.Text = "Payment";
             Paymenttab.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnRefreshPayments
             // 
-            button1.BackColor = Color.FromArgb(0, 0, 192);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(272, 105);
-            button1.Name = "button1";
-            button1.Size = new Size(107, 42);
-            button1.TabIndex = 14;
-            button1.Text = "Update";
-            button1.UseVisualStyleBackColor = false;
+            btnRefreshPayments.BackColor = Color.Maroon;
+            btnRefreshPayments.ForeColor = Color.White;
+            btnRefreshPayments.Location = new Point(295, 124);
+            btnRefreshPayments.Name = "btnRefreshPayments";
+            btnRefreshPayments.Size = new Size(107, 42);
+            btnRefreshPayments.TabIndex = 18;
+            btnRefreshPayments.Text = "Refresh";
+            btnRefreshPayments.UseVisualStyleBackColor = false;
+            btnRefreshPayments.Click += btnRefreshPayments_Click_1;
             // 
-            // dataGridView1
+            // deletepaybtn21
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Pmember, PDate, PAmount, PFor });
-            dataGridView1.Location = new Point(3, 167);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(919, 306);
-            dataGridView1.TabIndex = 13;
+            deletepaybtn21.BackColor = Color.Maroon;
+            deletepaybtn21.ForeColor = Color.White;
+            deletepaybtn21.Location = new Point(564, 124);
+            deletepaybtn21.Name = "deletepaybtn21";
+            deletepaybtn21.Size = new Size(107, 42);
+            deletepaybtn21.TabIndex = 17;
+            deletepaybtn21.Text = "Delete";
+            deletepaybtn21.UseVisualStyleBackColor = false;
+            deletepaybtn21.Click += deletepaybtn21_Click;
             // 
-            // Pmember
+            // dgvPayments
             // 
-            Pmember.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Pmember.HeaderText = "P-Member";
-            Pmember.MinimumWidth = 6;
-            Pmember.Name = "Pmember";
-            // 
-            // PDate
-            // 
-            PDate.HeaderText = "P-Date";
-            PDate.MinimumWidth = 6;
-            PDate.Name = "PDate";
-            PDate.Width = 125;
-            // 
-            // PAmount
-            // 
-            PAmount.HeaderText = "P-Amount";
-            PAmount.MinimumWidth = 6;
-            PAmount.Name = "PAmount";
-            PAmount.Width = 125;
-            // 
-            // PFor
-            // 
-            PFor.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            PFor.HeaderText = "P-For";
-            PFor.MinimumWidth = 6;
-            PFor.Name = "PFor";
+            dgvPayments.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvPayments.Columns.AddRange(new DataGridViewColumn[] { Paymentid, Memberdd, Pmember, PaymentDate, Amount, Editpayment, Deletepayment, Statusmemb });
+            dgvPayments.Location = new Point(135, 188);
+            dgvPayments.Name = "dgvPayments";
+            dgvPayments.RowHeadersWidth = 51;
+            dgvPayments.Size = new Size(1005, 270);
+            dgvPayments.TabIndex = 13;
             // 
             // button3
             // 
-            button3.BackColor = Color.Red;
+            button3.BackColor = Color.Maroon;
             button3.ForeColor = Color.White;
-            button3.Location = new Point(522, 105);
+            button3.Location = new Point(816, 124);
             button3.Name = "button3";
             button3.Size = new Size(102, 42);
             button3.TabIndex = 12;
@@ -564,21 +735,33 @@ namespace GymManagmentSystem7
             label5.BackColor = Color.Green;
             label5.Font = new Font("Century Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(372, 31);
+            label5.Location = new Point(524, 22);
             label5.Name = "label5";
             label5.Size = new Size(147, 37);
             label5.TabIndex = 4;
             label5.Text = "Payment";
             // 
+            // pictureBox6
+            // 
+            pictureBox6.Dock = DockStyle.Fill;
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(3, 3);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(1239, 505);
+            pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox6.TabIndex = 16;
+            pictureBox6.TabStop = false;
+            // 
             // MyPlantab
             // 
             MyPlantab.Controls.Add(btnrefreshMplan);
-            MyPlantab.Controls.Add(dataGridView4);
+            MyPlantab.Controls.Add(dgvMPlan);
             MyPlantab.Controls.Add(label1);
+            MyPlantab.Controls.Add(pictureBox7);
             MyPlantab.Location = new Point(4, 29);
             MyPlantab.Name = "MyPlantab";
             MyPlantab.Padding = new Padding(3);
-            MyPlantab.Size = new Size(925, 443);
+            MyPlantab.Size = new Size(1245, 511);
             MyPlantab.TabIndex = 3;
             MyPlantab.Text = "MyPlan";
             MyPlantab.UseVisualStyleBackColor = true;
@@ -587,32 +770,35 @@ namespace GymManagmentSystem7
             // 
             btnrefreshMplan.BackColor = Color.Maroon;
             btnrefreshMplan.ForeColor = Color.White;
-            btnrefreshMplan.Location = new Point(363, 93);
+            btnrefreshMplan.Location = new Point(553, 79);
             btnrefreshMplan.Name = "btnrefreshMplan";
             btnrefreshMplan.Size = new Size(134, 41);
             btnrefreshMplan.TabIndex = 2;
             btnrefreshMplan.Text = "Refresh";
             btnrefreshMplan.UseVisualStyleBackColor = false;
+            btnrefreshMplan.Click += btnrefreshMplan_Click;
             // 
-            // dataGridView4
+            // dgvMPlan
             // 
-            dataGridView4.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView4.Columns.AddRange(new DataGridViewColumn[] { PlanName1, Duration1, Trainer, Date1, Assigned1 });
-            dataGridView4.Location = new Point(8, 146);
-            dataGridView4.Name = "dataGridView4";
-            dataGridView4.RowHeadersWidth = 51;
-            dataGridView4.Size = new Size(914, 302);
-            dataGridView4.TabIndex = 1;
+            dgvMPlan.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvMPlan.Columns.AddRange(new DataGridViewColumn[] { Planid1, Duration1, Trainer, Assigned1 });
+            dgvMPlan.Location = new Point(308, 126);
+            dgvMPlan.Name = "dgvMPlan";
+            dgvMPlan.RowHeadersWidth = 51;
+            dgvMPlan.Size = new Size(636, 302);
+            dgvMPlan.TabIndex = 1;
             // 
-            // PlanName1
+            // Planid1
             // 
-            PlanName1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            PlanName1.HeaderText = "Plan-Name";
-            PlanName1.MinimumWidth = 6;
-            PlanName1.Name = "PlanName1";
+            Planid1.DataPropertyName = "PlanId";
+            Planid1.HeaderText = "PlanId";
+            Planid1.MinimumWidth = 6;
+            Planid1.Name = "Planid1";
+            Planid1.Width = 125;
             // 
             // Duration1
             // 
+            Duration1.DataPropertyName = "Duration";
             Duration1.HeaderText = "Duration";
             Duration1.MinimumWidth = 6;
             Duration1.Name = "Duration1";
@@ -620,22 +806,17 @@ namespace GymManagmentSystem7
             // 
             // Trainer
             // 
+            Trainer.DataPropertyName = "Trainer";
             Trainer.HeaderText = "Trainer";
             Trainer.MinimumWidth = 6;
             Trainer.Name = "Trainer";
             Trainer.Width = 125;
             // 
-            // Date1
-            // 
-            Date1.HeaderText = "Date";
-            Date1.MinimumWidth = 6;
-            Date1.Name = "Date1";
-            Date1.Width = 125;
-            // 
             // Assigned1
             // 
             Assigned1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Assigned1.HeaderText = "Assigned";
+            Assigned1.DataPropertyName = "AssignedDate";
+            Assigned1.HeaderText = "AssignedDate";
             Assigned1.MinimumWidth = 6;
             Assigned1.Name = "Assigned1";
             // 
@@ -645,56 +826,71 @@ namespace GymManagmentSystem7
             label1.BackColor = Color.FromArgb(0, 192, 192);
             label1.Font = new Font("Century Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(296, 30);
+            label1.Location = new Point(470, 13);
             label1.Name = "label1";
             label1.Size = new Size(263, 37);
             label1.TabIndex = 0;
             label1.Text = "My Workout-Plan";
             // 
+            // pictureBox7
+            // 
+            pictureBox7.Dock = DockStyle.Fill;
+            pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
+            pictureBox7.Location = new Point(3, 3);
+            pictureBox7.Name = "pictureBox7";
+            pictureBox7.Size = new Size(1239, 505);
+            pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox7.TabIndex = 3;
+            pictureBox7.TabStop = false;
+            // 
             // Mypaymenttab
             // 
             Mypaymenttab.Controls.Add(btnrefreshMyPay);
-            Mypaymenttab.Controls.Add(dataGridView5);
+            Mypaymenttab.Controls.Add(dgvMyPayment);
             Mypaymenttab.Controls.Add(MYPaymentlab);
+            Mypaymenttab.Controls.Add(pictureBox8);
             Mypaymenttab.Location = new Point(4, 29);
             Mypaymenttab.Name = "Mypaymenttab";
             Mypaymenttab.Padding = new Padding(3);
-            Mypaymenttab.Size = new Size(925, 443);
+            Mypaymenttab.Size = new Size(1245, 511);
             Mypaymenttab.TabIndex = 4;
             Mypaymenttab.Text = "MyPayment";
             Mypaymenttab.UseVisualStyleBackColor = true;
             // 
             // btnrefreshMyPay
             // 
-            btnrefreshMyPay.BackColor = Color.FromArgb(0, 0, 192);
+            btnrefreshMyPay.BackColor = Color.Maroon;
             btnrefreshMyPay.ForeColor = Color.White;
-            btnrefreshMyPay.Location = new Point(372, 118);
+            btnrefreshMyPay.Location = new Point(528, 119);
             btnrefreshMyPay.Name = "btnrefreshMyPay";
             btnrefreshMyPay.Size = new Size(135, 46);
             btnrefreshMyPay.TabIndex = 2;
             btnrefreshMyPay.Text = "Refresh";
             btnrefreshMyPay.UseVisualStyleBackColor = false;
+            btnrefreshMyPay.Click += btnrefreshMyPay_Click;
             // 
-            // dataGridView5
+            // dgvMyPayment
             // 
-            dataGridView5.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView5.Columns.AddRange(new DataGridViewColumn[] { Date2, Amount2, Description2 });
-            dataGridView5.Location = new Point(112, 200);
-            dataGridView5.Name = "dataGridView5";
-            dataGridView5.RowHeadersWidth = 51;
-            dataGridView5.Size = new Size(714, 188);
-            dataGridView5.TabIndex = 1;
+            dgvMyPayment.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvMyPayment.Columns.AddRange(new DataGridViewColumn[] { payDate, Amount2, Description2 });
+            dgvMyPayment.Location = new Point(252, 189);
+            dgvMyPayment.Name = "dgvMyPayment";
+            dgvMyPayment.RowHeadersWidth = 51;
+            dgvMyPayment.Size = new Size(706, 219);
+            dgvMyPayment.TabIndex = 1;
             // 
-            // Date2
+            // payDate
             // 
-            Date2.HeaderText = "P-Date";
-            Date2.MinimumWidth = 6;
-            Date2.Name = "Date2";
-            Date2.Width = 125;
+            payDate.DataPropertyName = "PaymentDate";
+            payDate.HeaderText = "PaymentDate";
+            payDate.MinimumWidth = 6;
+            payDate.Name = "payDate";
+            payDate.Width = 125;
             // 
             // Amount2
             // 
-            Amount2.HeaderText = "P-Amount";
+            Amount2.DataPropertyName = "Amount";
+            Amount2.HeaderText = "Amount";
             Amount2.MinimumWidth = 6;
             Amount2.Name = "Amount2";
             Amount2.Width = 125;
@@ -702,6 +898,7 @@ namespace GymManagmentSystem7
             // Description2
             // 
             Description2.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Description2.DataPropertyName = "Description";
             Description2.HeaderText = "Description";
             Description2.MinimumWidth = 6;
             Description2.Name = "Description2";
@@ -712,416 +909,216 @@ namespace GymManagmentSystem7
             MYPaymentlab.BackColor = Color.FromArgb(192, 0, 0);
             MYPaymentlab.Font = new Font("Century Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             MYPaymentlab.ForeColor = Color.White;
-            MYPaymentlab.Location = new Point(294, 50);
+            MYPaymentlab.Location = new Point(426, 40);
             MYPaymentlab.Name = "MYPaymentlab";
             MYPaymentlab.Size = new Size(304, 37);
             MYPaymentlab.TabIndex = 0;
             MYPaymentlab.Text = "My Payment History";
             // 
-            // MyProgresstab
+            // pictureBox8
             // 
-            MyProgresstab.Controls.Add(btnrefreshmypro);
-            MyProgresstab.Controls.Add(dataGridView6);
-            MyProgresstab.Controls.Add(MyprogressLab);
-            MyProgresstab.Location = new Point(4, 29);
-            MyProgresstab.Name = "MyProgresstab";
-            MyProgresstab.Padding = new Padding(3);
-            MyProgresstab.Size = new Size(925, 443);
-            MyProgresstab.TabIndex = 5;
-            MyProgresstab.Text = "MyProgress";
-            MyProgresstab.UseVisualStyleBackColor = true;
-            // 
-            // btnrefreshmypro
-            // 
-            btnrefreshmypro.BackColor = Color.FromArgb(0, 192, 0);
-            btnrefreshmypro.ForeColor = Color.White;
-            btnrefreshmypro.Location = new Point(372, 114);
-            btnrefreshmypro.Name = "btnrefreshmypro";
-            btnrefreshmypro.Size = new Size(147, 50);
-            btnrefreshmypro.TabIndex = 2;
-            btnrefreshmypro.Text = "Refresh";
-            btnrefreshmypro.UseVisualStyleBackColor = false;
-            // 
-            // dataGridView6
-            // 
-            dataGridView6.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView6.Columns.AddRange(new DataGridViewColumn[] { Date3, Weight3, BodyFat1, Notes1 });
-            dataGridView6.Location = new Point(118, 189);
-            dataGridView6.Name = "dataGridView6";
-            dataGridView6.RowHeadersWidth = 51;
-            dataGridView6.Size = new Size(719, 188);
-            dataGridView6.TabIndex = 1;
-            // 
-            // Date3
-            // 
-            Date3.HeaderText = "Pro-Date";
-            Date3.MinimumWidth = 6;
-            Date3.Name = "Date3";
-            Date3.Width = 125;
-            // 
-            // Weight3
-            // 
-            Weight3.HeaderText = "Weight(kg)";
-            Weight3.MinimumWidth = 6;
-            Weight3.Name = "Weight3";
-            Weight3.Width = 125;
-            // 
-            // BodyFat1
-            // 
-            BodyFat1.HeaderText = "BodyFat(%)";
-            BodyFat1.MinimumWidth = 6;
-            BodyFat1.Name = "BodyFat1";
-            BodyFat1.Width = 125;
-            // 
-            // Notes1
-            // 
-            Notes1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Notes1.HeaderText = "Notes";
-            Notes1.MinimumWidth = 6;
-            Notes1.Name = "Notes1";
-            // 
-            // MyprogressLab
-            // 
-            MyprogressLab.AutoSize = true;
-            MyprogressLab.BackColor = Color.FromArgb(0, 0, 192);
-            MyprogressLab.Font = new Font("Century Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            MyprogressLab.ForeColor = Color.White;
-            MyprogressLab.Location = new Point(304, 50);
-            MyprogressLab.Name = "MyprogressLab";
-            MyprogressLab.Size = new Size(293, 37);
-            MyprogressLab.TabIndex = 0;
-            MyprogressLab.Text = "My Progress History";
+            pictureBox8.Dock = DockStyle.Fill;
+            pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
+            pictureBox8.Location = new Point(3, 3);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(1239, 505);
+            pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox8.TabIndex = 3;
+            pictureBox8.TabStop = false;
             // 
             // Msplantab
             // 
-            Msplantab.Controls.Add(Msplanduratilab);
-            Msplantab.Controls.Add(btnMsView1);
-            Msplantab.Controls.Add(btnMsDelete1);
-            Msplantab.Controls.Add(btnMsUpdate1);
+            Msplantab.Controls.Add(Mplaninnglab1);
+            Msplantab.Controls.Add(btnRefreshPlans);
+            Msplantab.Controls.Add(dgvPlans);
+            Msplantab.Controls.Add(btnDeletePlan);
             Msplantab.Controls.Add(btnMsAdd1);
-            Msplantab.Controls.Add(textBox5);
-            Msplantab.Controls.Add(dateTimePicker2);
-            Msplantab.Controls.Add(numericUpDown1);
-            Msplantab.Controls.Add(comboBox2);
-            Msplantab.Controls.Add(textBox4);
-            Msplantab.Controls.Add(MsAssignlab);
-            Msplantab.Controls.Add(MsDate1lab);
-            Msplantab.Controls.Add(MsMemelab);
-            Msplantab.Controls.Add(Msplanlab);
+            Msplantab.Controls.Add(pictureBox10);
             Msplantab.Location = new Point(4, 29);
             Msplantab.Name = "Msplantab";
             Msplantab.Padding = new Padding(3);
-            Msplantab.Size = new Size(925, 443);
+            Msplantab.Size = new Size(1245, 511);
             Msplantab.TabIndex = 6;
             Msplantab.Text = "MsPlan";
             Msplantab.UseVisualStyleBackColor = true;
             // 
-            // Msplanduratilab
+            // Mplaninnglab1
             // 
-            Msplanduratilab.AutoSize = true;
-            Msplanduratilab.Location = new Point(31, 171);
-            Msplanduratilab.Name = "Msplanduratilab";
-            Msplanduratilab.Size = new Size(67, 20);
-            Msplanduratilab.TabIndex = 14;
-            Msplanduratilab.Text = "Duration";
+            Mplaninnglab1.AutoSize = true;
+            Mplaninnglab1.BackColor = Color.FromArgb(128, 64, 0);
+            Mplaninnglab1.Font = new Font("Century Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Mplaninnglab1.ForeColor = Color.White;
+            Mplaninnglab1.Location = new Point(439, 21);
+            Mplaninnglab1.Name = "Mplaninnglab1";
+            Mplaninnglab1.Size = new Size(270, 37);
+            Mplaninnglab1.TabIndex = 15;
+            Mplaninnglab1.Text = "Members-Planing";
             // 
-            // btnMsView1
+            // btnRefreshPlans
             // 
-            btnMsView1.BackColor = Color.Red;
-            btnMsView1.ForeColor = Color.White;
-            btnMsView1.Location = new Point(464, 256);
-            btnMsView1.Name = "btnMsView1";
-            btnMsView1.Size = new Size(101, 42);
-            btnMsView1.TabIndex = 13;
-            btnMsView1.Text = "View";
-            btnMsView1.UseVisualStyleBackColor = false;
-            btnMsView1.Click += btnMsView1_Click;
+            btnRefreshPlans.BackColor = Color.Maroon;
+            btnRefreshPlans.ForeColor = Color.White;
+            btnRefreshPlans.Location = new Point(528, 137);
+            btnRefreshPlans.Name = "btnRefreshPlans";
+            btnRefreshPlans.Size = new Size(102, 42);
+            btnRefreshPlans.TabIndex = 14;
+            btnRefreshPlans.Text = "Refresh";
+            btnRefreshPlans.UseVisualStyleBackColor = false;
+            btnRefreshPlans.Click += btnRefreshPlans_Click;
             // 
-            // btnMsDelete1
+            // dgvPlans
             // 
-            btnMsDelete1.BackColor = Color.Blue;
-            btnMsDelete1.ForeColor = Color.White;
-            btnMsDelete1.Location = new Point(462, 182);
-            btnMsDelete1.Name = "btnMsDelete1";
-            btnMsDelete1.Size = new Size(101, 42);
-            btnMsDelete1.TabIndex = 12;
-            btnMsDelete1.Text = "Delete";
-            btnMsDelete1.UseVisualStyleBackColor = false;
+            dgvPlans.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvPlans.Columns.AddRange(new DataGridViewColumn[] { Planid, Memberdi, Membersgrid1, Durationgrid1, Assignedgrid1, Editplan, Deleteplan, Statusmembers });
+            dgvPlans.Location = new Point(27, 196);
+            dgvPlans.Name = "dgvPlans";
+            dgvPlans.RowHeadersWidth = 51;
+            dgvPlans.Size = new Size(1191, 225);
+            dgvPlans.TabIndex = 13;
             // 
-            // btnMsUpdate1
+            // Planid
             // 
-            btnMsUpdate1.BackColor = Color.FromArgb(0, 192, 0);
-            btnMsUpdate1.ForeColor = Color.White;
-            btnMsUpdate1.Location = new Point(463, 107);
-            btnMsUpdate1.Name = "btnMsUpdate1";
-            btnMsUpdate1.Size = new Size(100, 42);
-            btnMsUpdate1.TabIndex = 11;
-            btnMsUpdate1.Text = "Update";
-            btnMsUpdate1.UseVisualStyleBackColor = false;
+            Planid.DataPropertyName = "PlanId";
+            Planid.HeaderText = "Planid";
+            Planid.MinimumWidth = 6;
+            Planid.Name = "Planid";
+            Planid.Width = 125;
+            // 
+            // Memberdi
+            // 
+            Memberdi.DataPropertyName = "MemberId";
+            Memberdi.HeaderText = "MemberId";
+            Memberdi.MinimumWidth = 6;
+            Memberdi.Name = "Memberdi";
+            Memberdi.Visible = false;
+            Memberdi.Width = 125;
+            // 
+            // Membersgrid1
+            // 
+            Membersgrid1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Membersgrid1.DataPropertyName = "MemberFullName";
+            Membersgrid1.HeaderText = "Member";
+            Membersgrid1.MinimumWidth = 6;
+            Membersgrid1.Name = "Membersgrid1";
+            // 
+            // Durationgrid1
+            // 
+            Durationgrid1.DataPropertyName = "Duration";
+            Durationgrid1.HeaderText = "Duration";
+            Durationgrid1.MinimumWidth = 6;
+            Durationgrid1.Name = "Durationgrid1";
+            Durationgrid1.Width = 125;
+            // 
+            // Assignedgrid1
+            // 
+            Assignedgrid1.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Assignedgrid1.DataPropertyName = "AssignedDate";
+            Assignedgrid1.HeaderText = "AssignedDate";
+            Assignedgrid1.MinimumWidth = 6;
+            Assignedgrid1.Name = "Assignedgrid1";
+            // 
+            // Editplan
+            // 
+            Editplan.HeaderText = "Edit";
+            Editplan.MinimumWidth = 6;
+            Editplan.Name = "Editplan";
+            Editplan.Width = 125;
+            // 
+            // Deleteplan
+            // 
+            Deleteplan.HeaderText = "Delete";
+            Deleteplan.MinimumWidth = 6;
+            Deleteplan.Name = "Deleteplan";
+            Deleteplan.Width = 125;
+            // 
+            // Statusmembers
+            // 
+            Statusmembers.DataPropertyName = "Status";
+            Statusmembers.HeaderText = "Status";
+            Statusmembers.MinimumWidth = 6;
+            Statusmembers.Name = "Statusmembers";
+            Statusmembers.Width = 125;
+            // 
+            // btnDeletePlan
+            // 
+            btnDeletePlan.BackColor = Color.Maroon;
+            btnDeletePlan.ForeColor = Color.White;
+            btnDeletePlan.Location = new Point(816, 137);
+            btnDeletePlan.Name = "btnDeletePlan";
+            btnDeletePlan.Size = new Size(101, 42);
+            btnDeletePlan.TabIndex = 12;
+            btnDeletePlan.Text = "Delete";
+            btnDeletePlan.UseVisualStyleBackColor = false;
+            btnDeletePlan.Click += btnDeletePlan_Click;
             // 
             // btnMsAdd1
             // 
-            btnMsAdd1.BackColor = Color.FromArgb(192, 0, 0);
+            btnMsAdd1.BackColor = Color.Maroon;
             btnMsAdd1.ForeColor = Color.White;
-            btnMsAdd1.Location = new Point(461, 36);
+            btnMsAdd1.Location = new Point(275, 137);
             btnMsAdd1.Name = "btnMsAdd1";
             btnMsAdd1.Size = new Size(102, 42);
             btnMsAdd1.TabIndex = 10;
             btnMsAdd1.Text = "Add";
             btnMsAdd1.UseVisualStyleBackColor = false;
+            btnMsAdd1.Click += btnMsAdd1_Click;
             // 
-            // textBox5
+            // pictureBox10
             // 
-            textBox5.Location = new Point(104, 295);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(178, 27);
-            textBox5.TabIndex = 9;
-            // 
-            // dateTimePicker2
-            // 
-            dateTimePicker2.Location = new Point(104, 231);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(250, 27);
-            dateTimePicker2.TabIndex = 8;
-            // 
-            // numericUpDown1
-            // 
-            numericUpDown1.Location = new Point(104, 169);
-            numericUpDown1.Name = "numericUpDown1";
-            numericUpDown1.Size = new Size(178, 27);
-            numericUpDown1.TabIndex = 7;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(108, 107);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(174, 28);
-            comboBox2.TabIndex = 6;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(108, 36);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(174, 27);
-            textBox4.TabIndex = 5;
-            // 
-            // MsAssignlab
-            // 
-            MsAssignlab.AutoSize = true;
-            MsAssignlab.Location = new Point(31, 295);
-            MsAssignlab.Name = "MsAssignlab";
-            MsAssignlab.Size = new Size(52, 20);
-            MsAssignlab.TabIndex = 4;
-            MsAssignlab.Text = "Assign";
-            // 
-            // MsDate1lab
-            // 
-            MsDate1lab.AutoSize = true;
-            MsDate1lab.Location = new Point(31, 231);
-            MsDate1lab.Name = "MsDate1lab";
-            MsDate1lab.Size = new Size(41, 20);
-            MsDate1lab.TabIndex = 3;
-            MsDate1lab.Text = "Date";
-            // 
-            // MsMemelab
-            // 
-            MsMemelab.AutoSize = true;
-            MsMemelab.Location = new Point(31, 110);
-            MsMemelab.Name = "MsMemelab";
-            MsMemelab.Size = new Size(71, 20);
-            MsMemelab.TabIndex = 1;
-            MsMemelab.Text = "Members";
-            // 
-            // Msplanlab
-            // 
-            Msplanlab.AutoSize = true;
-            Msplanlab.Location = new Point(19, 43);
-            Msplanlab.Name = "Msplanlab";
-            Msplanlab.Size = new Size(83, 20);
-            Msplanlab.TabIndex = 0;
-            Msplanlab.Text = "Plan-Name";
-            // 
-            // MsProgresstab
-            // 
-            MsProgresstab.Controls.Add(btnMsView);
-            MsProgresstab.Controls.Add(btnMsDelete);
-            MsProgresstab.Controls.Add(btnMsUpdate);
-            MsProgresstab.Controls.Add(btnMsAdd);
-            MsProgresstab.Controls.Add(textBox3);
-            MsProgresstab.Controls.Add(textBox2);
-            MsProgresstab.Controls.Add(textBox1);
-            MsProgresstab.Controls.Add(dateTimePicker1);
-            MsProgresstab.Controls.Add(comboBox1);
-            MsProgresstab.Controls.Add(Msnotelab);
-            MsProgresstab.Controls.Add(Msweightlab);
-            MsProgresstab.Controls.Add(Msbodylab);
-            MsProgresstab.Controls.Add(Msdatelab);
-            MsProgresstab.Controls.Add(Msnamelab);
-            MsProgresstab.Location = new Point(4, 29);
-            MsProgresstab.Name = "MsProgresstab";
-            MsProgresstab.Padding = new Padding(3);
-            MsProgresstab.Size = new Size(925, 443);
-            MsProgresstab.TabIndex = 7;
-            MsProgresstab.Text = "MsProgress";
-            MsProgresstab.UseVisualStyleBackColor = true;
-            // 
-            // btnMsView
-            // 
-            btnMsView.BackColor = Color.FromArgb(0, 0, 192);
-            btnMsView.ForeColor = Color.White;
-            btnMsView.Location = new Point(422, 257);
-            btnMsView.Name = "btnMsView";
-            btnMsView.Size = new Size(107, 41);
-            btnMsView.TabIndex = 13;
-            btnMsView.Text = "View";
-            btnMsView.UseVisualStyleBackColor = false;
-            btnMsView.Click += btnMsView_Click;
-            // 
-            // btnMsDelete
-            // 
-            btnMsDelete.BackColor = Color.Red;
-            btnMsDelete.ForeColor = Color.White;
-            btnMsDelete.Location = new Point(422, 184);
-            btnMsDelete.Name = "btnMsDelete";
-            btnMsDelete.Size = new Size(107, 41);
-            btnMsDelete.TabIndex = 12;
-            btnMsDelete.Text = "Delete";
-            btnMsDelete.UseVisualStyleBackColor = false;
-            // 
-            // btnMsUpdate
-            // 
-            btnMsUpdate.BackColor = Color.FromArgb(192, 192, 0);
-            btnMsUpdate.ForeColor = Color.White;
-            btnMsUpdate.Location = new Point(422, 110);
-            btnMsUpdate.Name = "btnMsUpdate";
-            btnMsUpdate.Size = new Size(110, 41);
-            btnMsUpdate.TabIndex = 11;
-            btnMsUpdate.Text = "Update";
-            btnMsUpdate.UseVisualStyleBackColor = false;
-            // 
-            // btnMsAdd
-            // 
-            btnMsAdd.BackColor = Color.FromArgb(0, 192, 0);
-            btnMsAdd.ForeColor = Color.White;
-            btnMsAdd.Location = new Point(422, 31);
-            btnMsAdd.Name = "btnMsAdd";
-            btnMsAdd.Size = new Size(101, 41);
-            btnMsAdd.TabIndex = 10;
-            btnMsAdd.Text = "Add";
-            btnMsAdd.UseVisualStyleBackColor = false;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(120, 290);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(156, 27);
-            textBox3.TabIndex = 9;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(120, 222);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(156, 27);
-            textBox2.TabIndex = 8;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(120, 107);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(156, 27);
-            textBox1.TabIndex = 7;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Location = new Point(120, 162);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(250, 27);
-            dateTimePicker1.TabIndex = 6;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(120, 38);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(156, 28);
-            comboBox1.TabIndex = 5;
-            // 
-            // Msnotelab
-            // 
-            Msnotelab.AutoSize = true;
-            Msnotelab.Location = new Point(46, 229);
-            Msnotelab.Name = "Msnotelab";
-            Msnotelab.Size = new Size(48, 20);
-            Msnotelab.TabIndex = 4;
-            Msnotelab.Text = "Notes";
-            // 
-            // Msweightlab
-            // 
-            Msweightlab.AutoSize = true;
-            Msweightlab.Location = new Point(26, 297);
-            Msweightlab.Name = "Msweightlab";
-            Msweightlab.Size = new Size(86, 20);
-            Msweightlab.TabIndex = 3;
-            Msweightlab.Text = "Weight (kg)";
-            // 
-            // Msbodylab
-            // 
-            Msbodylab.AutoSize = true;
-            Msbodylab.Location = new Point(26, 110);
-            Msbodylab.Name = "Msbodylab";
-            Msbodylab.Size = new Size(88, 20);
-            Msbodylab.TabIndex = 2;
-            Msbodylab.Text = "Body Fat(%)";
-            // 
-            // Msdatelab
-            // 
-            Msdatelab.AutoSize = true;
-            Msdatelab.Location = new Point(46, 169);
-            Msdatelab.Name = "Msdatelab";
-            Msdatelab.Size = new Size(41, 20);
-            Msdatelab.TabIndex = 1;
-            Msdatelab.Text = "Date";
-            // 
-            // Msnamelab
-            // 
-            Msnamelab.AutoSize = true;
-            Msnamelab.Location = new Point(26, 41);
-            Msnamelab.Name = "Msnamelab";
-            Msnamelab.Size = new Size(68, 20);
-            Msnamelab.TabIndex = 0;
-            Msnamelab.Text = "M-Name";
+            pictureBox10.Dock = DockStyle.Fill;
+            pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
+            pictureBox10.Location = new Point(3, 3);
+            pictureBox10.Name = "pictureBox10";
+            pictureBox10.Size = new Size(1239, 505);
+            pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox10.TabIndex = 16;
+            pictureBox10.TabStop = false;
             // 
             // MsAttendancetab
             // 
-            MsAttendancetab.Controls.Add(btnMSUpdateAttend);
+            MsAttendancetab.Controls.Add(btnDeleteAttendance);
+            MsAttendancetab.Controls.Add(btnRefreshAttendance);
             MsAttendancetab.Controls.Add(btnMsAddAttend);
             MsAttendancetab.Controls.Add(MsAttendlab1);
-            MsAttendancetab.Controls.Add(dataGridView7);
+            MsAttendancetab.Controls.Add(dgvAttendance);
+            MsAttendancetab.Controls.Add(pictureBox12);
             MsAttendancetab.Location = new Point(4, 29);
             MsAttendancetab.Name = "MsAttendancetab";
             MsAttendancetab.Padding = new Padding(3);
-            MsAttendancetab.Size = new Size(925, 443);
+            MsAttendancetab.Size = new Size(1245, 511);
             MsAttendancetab.TabIndex = 8;
             MsAttendancetab.Text = "MsAttendance";
             MsAttendancetab.UseVisualStyleBackColor = true;
             // 
-            // btnMSUpdateAttend
+            // btnDeleteAttendance
             // 
-            btnMSUpdateAttend.BackColor = Color.FromArgb(0, 192, 0);
-            btnMSUpdateAttend.ForeColor = Color.White;
-            btnMSUpdateAttend.Location = new Point(501, 88);
-            btnMSUpdateAttend.Name = "btnMSUpdateAttend";
-            btnMSUpdateAttend.Size = new Size(112, 46);
-            btnMSUpdateAttend.TabIndex = 3;
-            btnMSUpdateAttend.Text = "Update";
-            btnMSUpdateAttend.UseVisualStyleBackColor = false;
+            btnDeleteAttendance.BackColor = Color.Maroon;
+            btnDeleteAttendance.ForeColor = Color.White;
+            btnDeleteAttendance.Location = new Point(784, 98);
+            btnDeleteAttendance.Name = "btnDeleteAttendance";
+            btnDeleteAttendance.Size = new Size(104, 46);
+            btnDeleteAttendance.TabIndex = 6;
+            btnDeleteAttendance.Text = "Delete";
+            btnDeleteAttendance.UseVisualStyleBackColor = false;
+            btnDeleteAttendance.Click += btnDeleteAttendance_Click;
+            // 
+            // btnRefreshAttendance
+            // 
+            btnRefreshAttendance.BackColor = Color.Maroon;
+            btnRefreshAttendance.ForeColor = Color.White;
+            btnRefreshAttendance.Location = new Point(564, 98);
+            btnRefreshAttendance.Name = "btnRefreshAttendance";
+            btnRefreshAttendance.Size = new Size(104, 46);
+            btnRefreshAttendance.TabIndex = 5;
+            btnRefreshAttendance.Text = "Refresh";
+            btnRefreshAttendance.UseVisualStyleBackColor = false;
+            btnRefreshAttendance.Click += btnRefreshAttendance_Click;
             // 
             // btnMsAddAttend
             // 
-            btnMsAddAttend.BackColor = Color.FromArgb(0, 0, 192);
+            btnMsAddAttend.BackColor = Color.Maroon;
             btnMsAddAttend.ForeColor = Color.White;
-            btnMsAddAttend.Location = new Point(281, 88);
+            btnMsAddAttend.Location = new Point(325, 98);
             btnMsAddAttend.Name = "btnMsAddAttend";
             btnMsAddAttend.Size = new Size(104, 46);
             btnMsAddAttend.TabIndex = 2;
@@ -1135,32 +1132,51 @@ namespace GymManagmentSystem7
             MsAttendlab1.BackColor = Color.Red;
             MsAttendlab1.Font = new Font("Century Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             MsAttendlab1.ForeColor = Color.White;
-            MsAttendlab1.Location = new Point(258, 28);
+            MsAttendlab1.Location = new Point(430, 15);
             MsAttendlab1.Name = "MsAttendlab1";
             MsAttendlab1.Size = new Size(355, 37);
             MsAttendlab1.TabIndex = 1;
             MsAttendlab1.Text = "Memebers Attendance";
             // 
-            // dataGridView7
+            // dgvAttendance
             // 
-            dataGridView7.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView7.Columns.AddRange(new DataGridViewColumn[] { MsName13, Date13, Status13 });
-            dataGridView7.Location = new Point(77, 156);
-            dataGridView7.Name = "dataGridView7";
-            dataGridView7.RowHeadersWidth = 51;
-            dataGridView7.Size = new Size(772, 259);
-            dataGridView7.TabIndex = 0;
+            dgvAttendance.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvAttendance.Columns.AddRange(new DataGridViewColumn[] { Attendanceid, MsMemberId, MsName13, Date13, Status13, Editattend, Deleteattend });
+            dgvAttendance.Location = new Point(204, 183);
+            dgvAttendance.Name = "dgvAttendance";
+            dgvAttendance.RowHeadersWidth = 51;
+            dgvAttendance.Size = new Size(829, 259);
+            dgvAttendance.TabIndex = 0;
+            // 
+            // Attendanceid
+            // 
+            Attendanceid.DataPropertyName = "AttendanceId";
+            Attendanceid.HeaderText = "AttendanceId";
+            Attendanceid.MinimumWidth = 6;
+            Attendanceid.Name = "Attendanceid";
+            Attendanceid.Width = 125;
+            // 
+            // MsMemberId
+            // 
+            MsMemberId.DataPropertyName = "MemberId";
+            MsMemberId.HeaderText = "MemberId";
+            MsMemberId.MinimumWidth = 6;
+            MsMemberId.Name = "MsMemberId";
+            MsMemberId.Visible = false;
+            MsMemberId.Width = 125;
             // 
             // MsName13
             // 
             MsName13.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            MsName13.HeaderText = "M-Name";
+            MsName13.DataPropertyName = "MemberFullName";
+            MsName13.HeaderText = "Member";
             MsName13.MinimumWidth = 6;
             MsName13.Name = "MsName13";
             // 
             // Date13
             // 
-            Date13.HeaderText = "DATE";
+            Date13.DataPropertyName = "Date";
+            Date13.HeaderText = "Date";
             Date13.MinimumWidth = 6;
             Date13.Name = "Date13";
             Date13.Width = 125;
@@ -1168,16 +1184,42 @@ namespace GymManagmentSystem7
             // Status13
             // 
             Status13.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Status13.DataPropertyName = "Status";
             Status13.HeaderText = "Status";
             Status13.MinimumWidth = 6;
             Status13.Name = "Status13";
+            // 
+            // Editattend
+            // 
+            Editattend.HeaderText = "Edit";
+            Editattend.MinimumWidth = 6;
+            Editattend.Name = "Editattend";
+            Editattend.Width = 125;
+            // 
+            // Deleteattend
+            // 
+            Deleteattend.HeaderText = "Delete";
+            Deleteattend.MinimumWidth = 6;
+            Deleteattend.Name = "Deleteattend";
+            Deleteattend.Width = 125;
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.Dock = DockStyle.Fill;
+            pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
+            pictureBox12.Location = new Point(3, 3);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(1239, 505);
+            pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox12.TabIndex = 4;
+            pictureBox12.TabStop = false;
             // 
             // Logoutbtn
             // 
             Logoutbtn.BackColor = Color.Crimson;
             Logoutbtn.Font = new Font("Century Gothic", 7.20000029F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Logoutbtn.ForeColor = Color.White;
-            Logoutbtn.Location = new Point(835, 0);
+            Logoutbtn.Location = new Point(1144, 0);
             Logoutbtn.Name = "Logoutbtn";
             Logoutbtn.Size = new Size(94, 29);
             Logoutbtn.TabIndex = 0;
@@ -1185,12 +1227,75 @@ namespace GymManagmentSystem7
             Logoutbtn.UseVisualStyleBackColor = false;
             Logoutbtn.Click += Logoutbtn_Click;
             // 
+            // Paymentid
+            // 
+            Paymentid.DataPropertyName = "PaymentId";
+            Paymentid.HeaderText = "PaymentId";
+            Paymentid.MinimumWidth = 6;
+            Paymentid.Name = "Paymentid";
+            Paymentid.Width = 125;
+            // 
+            // Memberdd
+            // 
+            Memberdd.DataPropertyName = "MemberId";
+            Memberdd.HeaderText = "MemberId";
+            Memberdd.MinimumWidth = 6;
+            Memberdd.Name = "Memberdd";
+            Memberdd.Visible = false;
+            Memberdd.Width = 125;
+            // 
+            // Pmember
+            // 
+            Pmember.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Pmember.DataPropertyName = "MemberFullName";
+            Pmember.HeaderText = "Member";
+            Pmember.MinimumWidth = 6;
+            Pmember.Name = "Pmember";
+            // 
+            // PaymentDate
+            // 
+            PaymentDate.DataPropertyName = "PaymentDate";
+            PaymentDate.HeaderText = "PaymentDate";
+            PaymentDate.MinimumWidth = 6;
+            PaymentDate.Name = "PaymentDate";
+            PaymentDate.Width = 125;
+            // 
+            // Amount
+            // 
+            Amount.DataPropertyName = "Amount";
+            Amount.HeaderText = "Amount";
+            Amount.MinimumWidth = 6;
+            Amount.Name = "Amount";
+            Amount.Width = 125;
+            // 
+            // Editpayment
+            // 
+            Editpayment.HeaderText = "Edit";
+            Editpayment.MinimumWidth = 6;
+            Editpayment.Name = "Editpayment";
+            Editpayment.Width = 125;
+            // 
+            // Deletepayment
+            // 
+            Deletepayment.HeaderText = "Delete";
+            Deletepayment.MinimumWidth = 6;
+            Deletepayment.Name = "Deletepayment";
+            Deletepayment.Width = 125;
+            // 
+            // Statusmemb
+            // 
+            Statusmemb.DataPropertyName = "Status";
+            Statusmemb.HeaderText = "Status";
+            Statusmemb.MinimumWidth = 6;
+            Statusmemb.Name = "Statusmemb";
+            Statusmemb.Width = 125;
+            // 
             // MainDashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLight;
-            ClientSize = new Size(933, 476);
+            ClientSize = new Size(1253, 544);
             Controls.Add(Logoutbtn);
             Controls.Add(tabcontrolMain);
             Controls.Add(Loginpanel);
@@ -1207,30 +1312,32 @@ namespace GymManagmentSystem7
             tabcontrolMain.ResumeLayout(false);
             Registrationtab.ResumeLayout(false);
             Registrationtab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvMembers).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             Trainertab.ResumeLayout(false);
             Trainertab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvTrainers).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             Paymenttab.ResumeLayout(false);
             Paymenttab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvPayments).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             MyPlantab.ResumeLayout(false);
             MyPlantab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvMPlan).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             Mypaymenttab.ResumeLayout(false);
             Mypaymenttab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView5).EndInit();
-            MyProgresstab.ResumeLayout(false);
-            MyProgresstab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvMyPayment).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             Msplantab.ResumeLayout(false);
             Msplantab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
-            MsProgresstab.ResumeLayout(false);
-            MsProgresstab.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dgvPlans).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             MsAttendancetab.ResumeLayout(false);
             MsAttendancetab.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvAttendance).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ResumeLayout(false);
         }
 
@@ -1248,96 +1355,102 @@ namespace GymManagmentSystem7
         private TabPage Paymenttab;
         private TabPage MyPlantab;
         private TabPage Mypaymenttab;
-        private TabPage MyProgresstab;
         private TabPage Msplantab;
-        private TabPage MsProgresstab;
         private TabPage MsAttendancetab;
         private TextBox txtboxUsername;
         private Label Title;
         private Button Logoutbtn;
         private Label label5;
         private Button button3;
-        private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn Pmember;
-        private DataGridViewTextBoxColumn PDate;
-        private DataGridViewTextBoxColumn PAmount;
-        private DataGridViewTextBoxColumn PFor;
+        private DataGridView dgvPayments;
         private PictureBox pictureBox2;
         private Label label6;
-        private DataGridView dataGridView2;
+        private DataGridView dgvMembers;
         private Button btnAddMember;
         private Button btnTestConnection;
-        private DataGridView dataGridView3;
-        private DataGridViewTextBoxColumn Tname;
-        private DataGridViewTextBoxColumn txtspecality;
-        private DataGridViewTextBoxColumn txtPhoneTrainer;
-        private DataGridViewTextBoxColumn dtpHireDate;
+        private DataGridView dgvTrainers;
         private Button btnAddTrainer;
         private Label label7;
-        private Button button1;
-        private DataGridView dataGridView4;
-        private DataGridViewTextBoxColumn PlanName1;
-        private DataGridViewTextBoxColumn Duration1;
-        private DataGridViewTextBoxColumn Trainer;
-        private DataGridViewTextBoxColumn Date1;
-        private DataGridViewTextBoxColumn Assigned1;
+        private DataGridView dgvMPlan;
         private Label label1;
         private Button btnrefreshMplan;
-        private DataGridView dataGridView5;
-        private DataGridViewTextBoxColumn Date2;
-        private DataGridViewTextBoxColumn Amount2;
-        private DataGridViewTextBoxColumn Description2;
+        private DataGridView dgvMyPayment;
         private Label MYPaymentlab;
         private Button btnrefreshMyPay;
-        private DataGridView dataGridView6;
-        private DataGridViewTextBoxColumn Date3;
-        private DataGridViewTextBoxColumn Weight3;
-        private DataGridViewTextBoxColumn BodyFat1;
-        private DataGridViewTextBoxColumn Notes1;
-        private Label MyprogressLab;
-        private Button btnrefreshmypro;
-        private Label Msweightlab;
-        private Label Msbodylab;
-        private Label Msdatelab;
-        private Label Msnamelab;
-        private Label Msnotelab;
-        private DateTimePicker dateTimePicker1;
-        private ComboBox comboBox1;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Button btnMsDelete;
-        private Button btnMsUpdate;
-        private Button btnMsAdd;
-        private Button btnMsView;
-        private Label MsAssignlab;
-        private Label MsDate1lab;
-        private Label MsMemelab;
-        private Label Msplanlab;
-        private TextBox textBox5;
-        private DateTimePicker dateTimePicker2;
-        private NumericUpDown numericUpDown1;
-        private ComboBox comboBox2;
-        private TextBox textBox4;
-        private Button btnMsView1;
-        private Button btnMsDelete1;
-        private Button btnMsUpdate1;
+        private Button btnDeletePlan;
         private Button btnMsAdd1;
         private Label MsAttendlab1;
-        private DataGridView dataGridView7;
+        private DataGridView dgvAttendance;
+        private Button btnMsAddAttend;
+        private PictureBox pictureBox3;
+        private Button btnAddAccount;
+        private DataGridView dgvPlans;
+        private Button btnRefreshPlans;
+        private Label Mplaninnglab1;
+        private Button Btndelete48;
+        private Button btnRefreshMembers;
+        private PictureBox pictureBox4;
+        private PictureBox pictureBox5;
+        private PictureBox pictureBox6;
+        private PictureBox pictureBox7;
+        private PictureBox pictureBox8;
+        private PictureBox pictureBox10;
+        private PictureBox pictureBox12;
+        private Button btnDeleteAttendance;
+        private Button btnRefreshAttendance;
+        private Button refreshtrain2433;
+        private Button deletetrainbtn23;
+        private Button deletepaybtn21;
+        private Button btnRefreshPayments;
+        private DataGridViewTextBoxColumn payDate;
+        private DataGridViewTextBoxColumn Amount2;
+        private DataGridViewTextBoxColumn Description2;
+        private DataGridViewTextBoxColumn Planid;
+        private DataGridViewTextBoxColumn Memberdi;
+        private DataGridViewTextBoxColumn Membersgrid1;
+        private DataGridViewTextBoxColumn Durationgrid1;
+        private DataGridViewTextBoxColumn Assignedgrid1;
+        private DataGridViewButtonColumn Editplan;
+        private DataGridViewCheckBoxColumn Deleteplan;
+        private DataGridViewTextBoxColumn Statusmembers;
+        private DataGridViewTextBoxColumn MemberID;
+        private DataGridViewTextBoxColumn Accountdi;
+        private DataGridViewTextBoxColumn FirstName;
+        private DataGridViewTextBoxColumn LastName;
+        private DataGridViewTextBoxColumn Age;
+        private DataGridViewTextBoxColumn Gender;
+        private DataGridViewTextBoxColumn MemberShipType;
+        private DataGridViewButtonColumn Edit;
+        private DataGridViewCheckBoxColumn Delete;
+        private DataGridViewTextBoxColumn Status;
+        private DataGridViewButtonColumn Mode;
+        private DataGridViewTextBoxColumn TrainerID;
+        private DataGridViewTextBoxColumn Accountme;
+        private DataGridViewTextBoxColumn Tfirstname;
+        private DataGridViewTextBoxColumn Tlastname;
+        private DataGridViewTextBoxColumn Tspecialization;
+        private DataGridViewButtonColumn Edittrainer;
+        private DataGridViewCheckBoxColumn DeleteTrainer;
+        private DataGridViewTextBoxColumn StatusTrainer;
+        private DataGridViewButtonColumn ModeTrainer;
+        private DataGridViewTextBoxColumn Planid1;
+        private DataGridViewTextBoxColumn Duration1;
+        private DataGridViewTextBoxColumn Trainer;
+        private DataGridViewTextBoxColumn Assigned1;
+        private DataGridViewTextBoxColumn Attendanceid;
+        private DataGridViewTextBoxColumn MsMemberId;
         private DataGridViewTextBoxColumn MsName13;
         private DataGridViewTextBoxColumn Date13;
         private DataGridViewTextBoxColumn Status13;
-        private Button btnMSUpdateAttend;
-        private Button btnMsAddAttend;
-        private Label Msplanduratilab;
-        private PictureBox pictureBox3;
-        private DataGridViewTextBoxColumn MemberID;
-        private DataGridViewTextBoxColumn FNameColumn;
-        private DataGridViewTextBoxColumn Lname1;
-        private DataGridViewTextBoxColumn Age;
-        private DataGridViewTextBoxColumn Gender;
-        private DataGridViewTextBoxColumn MemberShipType1;
-        private Button btnAddAccount;
+        private DataGridViewButtonColumn Editattend;
+        private DataGridViewCheckBoxColumn Deleteattend;
+        private DataGridViewTextBoxColumn Paymentid;
+        private DataGridViewTextBoxColumn Memberdd;
+        private DataGridViewTextBoxColumn Pmember;
+        private DataGridViewTextBoxColumn PaymentDate;
+        private DataGridViewTextBoxColumn Amount;
+        private DataGridViewButtonColumn Editpayment;
+        private DataGridViewCheckBoxColumn Deletepayment;
+        private DataGridViewTextBoxColumn Statusmemb;
     }
 }
